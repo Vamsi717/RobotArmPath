@@ -16,7 +16,8 @@ def arm_endPoint(initial_Cor,lengths,angles):
         endPoint = cylindrical_Coordinates(endPoint,lengths[i],angle)
     endPoint = np.round_(endPoint,decimals=3)
     return endPoint
-
+def dfs():
+    for i  in range(10)
 def main():
     arms = [1,1,1]
     initial_angles = [60,-60,-60]
